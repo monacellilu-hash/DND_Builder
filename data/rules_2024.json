@@ -1,0 +1,75 @@
+{
+  "abilities": ["Forza", "Destrezza", "Costituzione", "Intelligenza", "Saggezza", "Carisma"],
+  "skills": {
+    "Acrobazia": "Destrezza",
+    "Addestrare Animali": "Saggezza",
+    "Arcano": "Intelligenza",
+    "Atletica": "Forza",
+    "Furtività": "Destrezza",
+    "Indagare": "Intelligenza",
+    "Inganno": "Carisma",
+    "Intimidire": "Carisma",
+    "Intrattenere": "Carisma",
+    "Intuizione": "Saggezza",
+    "Medicina": "Saggezza",
+    "Natura": "Intelligenza",
+    "Percezione": "Saggezza",
+    "Persuasione": "Carisma",
+    "Rapidità di Mano": "Destrezza",
+    "Religione": "Intelligenza",
+    "Sopravvivenza": "Saggezza",
+    "Storia": "Intelligenza"
+  },
+  "backgrounds": {
+    "Acolyte": {
+      "name_it": "Accolito",
+      "ability_boosts": ["Intelligenza", "Saggezza", "Carisma"],
+      "skills": ["Intuizione", "Religione"],
+      "tools": ["Calligrapher's Supplies"],
+      "origin_feat": "Magic Initiate (Cleric)",
+      "description": "Hai dedicato la tua vita al servizio di un tempio, imparando segreti magici."
+    },
+    "Artisan": {
+      "name_it": "Artigiano",
+      "ability_boosts": ["Forza", "Destrezza", "Intelligenza"],
+      "skills": ["Indagare", "Persuasione"],
+      "tools": ["Artisan's Tools"],
+      "origin_feat": "Crafter",
+      "description": "Hai imparato un mestiere e sei abile nel contrattare."
+    }
+  },
+  "species": {
+    "Human": {
+      "name_it": "Umano",
+      "speed": 30,
+      "traits": ["Resourceful", "Versatile"],
+      "description": "Adattabili e ambiziosi."
+    },
+    "Elf": {
+      "name_it": "Elfo",
+      "speed": 30,
+      "traits": ["Darkvision", "Elven Lineage", "Fey Ancestry", "Keen Senses", "Trance"],
+      "description": "Popolo magico di grazia ultraterrena."
+    }
+  },
+  "classes": {
+    "Fighter": {
+      "name_it": "Guerriero",
+      "hit_die": 10,
+      "primary_ability": ["Forza", "Destrezza"],
+      "saving_throws": ["Forza", "Costituzione"],
+      "skill_choices": 2,
+      "skill_options": ["Acrobazia", "Addestrare Animali", "Atletica", "Intimidire", "Intuizione", "Percezione", "Sopravvivenza", "Storia"],
+      "description": "Maestro del combattimento marziale, abile con diverse armi e armature."
+    },
+    "Wizard": {
+      "name_it": "Mago",
+      "hit_die": 6,
+      "primary_ability": ["Intelligenza"],
+      "saving_throws": ["Intelligenza", "Saggezza"],
+      "skill_choices": 2,
+      "skill_options": ["Arcano", "Indagare", "Intuizione", "Medicina", "Religione", "Storia"],
+      "description": "Studioso della magia arcana, in grado di manipolare la trama della realtà."
+    }
+  }
+}
