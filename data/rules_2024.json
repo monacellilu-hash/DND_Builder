@@ -20,6 +20,15 @@
     "Sopravvivenza": "Saggezza",
     "Storia": "Intelligenza"
   },
+  "feats": {
+    "Magic Initiate (Cleric)": {"description": "Impari due trucchetti e un incantesimo di 1° livello dalla lista del Chierico."},
+    "Crafter": {"description": "Ottieni competenza in tre strumenti da artigiano e sconti sull'acquisto di oggetti non magici."},
+    "Skilled": {"description": "Ottieni competenza in 3 abilità o strumenti a tua scelta."},
+    "Alert": {"description": "Ottieni un bonus all'iniziativa pari al tuo bonus di competenza e puoi scambiare l'iniziativa con un alleato."},
+    "Tough": {"description": "I tuoi punti ferita massimi aumentano di 2 per ogni livello del personaggio."},
+    "Savage Attacker": {"description": "Puoi tirare due volte i danni con armi da mischia e usare il risultato migliore."},
+    "Musician": {"description": "Ottieni competenza in 3 strumenti musicali. Quando finisci un riposo, conferisci Ispirazione Eroica ai tuoi alleati."}
+  },
   "backgrounds": {
     "Acolyte": {
       "name_it": "Accolito",
@@ -36,6 +45,30 @@
       "tools": ["Artisan's Tools"],
       "origin_feat": "Crafter",
       "description": "Hai imparato un mestiere e sei abile nel contrattare."
+    },
+    "Criminal": {
+      "name_it": "Criminale",
+      "ability_boosts": ["Destrezza", "Costituzione", "Intelligenza"],
+      "skills": ["Furtività", "Rapidità di Mano"],
+      "tools": ["Thieves' Tools", "Gaming Set"],
+      "origin_feat": "Alert",
+      "description": "Hai vissuto al di fuori della legge, sopravvivendo con l'astuzia."
+    },
+    "Entertainer": {
+      "name_it": "Intrattenitore",
+      "ability_boosts": ["Destrezza", "Forza", "Carisma"],
+      "skills": ["Acrobazia", "Intrattenere"],
+      "tools": ["Musical Instrument", "Disguise Kit"],
+      "origin_feat": "Musician",
+      "description": "Hai trascorso la tua vita esibendoti per il pubblico."
+    },
+    "Soldier": {
+      "name_it": "Soldato",
+      "ability_boosts": ["Forza", "Destrezza", "Costituzione"],
+      "skills": ["Atletica", "Intimidire"],
+      "tools": ["Gaming Set", "Land Vehicles"],
+      "origin_feat": "Savage Attacker",
+      "description": "Sei stato addestrato per la guerra e hai visto innumerevoli battaglie."
     }
   },
   "species": {
@@ -43,33 +76,147 @@
       "name_it": "Umano",
       "speed": 30,
       "traits": ["Resourceful", "Versatile"],
-      "description": "Adattabili e ambiziosi."
+      "description": "Gli umani sono adattabili, ambiziosi e incredibilmente vari. Ottengono un Ispirazione Eroica aggiuntiva ogni giorno."
     },
     "Elf": {
       "name_it": "Elfo",
       "speed": 30,
       "traits": ["Darkvision", "Elven Lineage", "Fey Ancestry", "Keen Senses", "Trance"],
-      "description": "Popolo magico di grazia ultraterrena."
+      "description": "Un popolo magico di grazia ultraterrena, vivono nel mondo senza esserne completamente parte."
+    },
+    "Dwarf": {
+      "name_it": "Nano",
+      "speed": 30,
+      "traits": ["Darkvision", "Dwarven Resilience", "Dwarven Toughness", "Stonecunning"],
+      "description": "Combattenti robusti e abili artigiani, i nani possiedono un'incredibile resistenza."
+    },
+    "Halfling": {
+      "name_it": "Halfling",
+      "speed": 30,
+      "traits": ["Brave", "Halfling Nimbleness", "Lucky", "Naturally Stealthy"],
+      "description": "Piccoli e ottimisti, gli halfling sono baciati dalla fortuna e dalla resilienza d'animo."
     }
   },
   "classes": {
+    "Barbarian": {
+      "name_it": "Barbaro",
+      "image": "https://www.dndbeyond.com/avatars/thumbnails/6/342/420/618/636272680339895080.jpeg",
+      "hit_die": 12,
+      "primary_ability": ["Forza"],
+      "saving_throws": ["Forza", "Costituzione"],
+      "skill_choices": 2,
+      "skill_options": ["Addestrare Animali", "Atletica", "Intimidire", "Natura", "Percezione", "Sopravvivenza"],
+      "description": "Un feroce guerriero di estrazione primitiva che può entrare in un'ira implacabile in battaglia."
+    },
+    "Bard": {
+      "name_it": "Bardo",
+      "image": "https://www.dndbeyond.com/avatars/thumbnails/6/369/420/618/636272705936709430.jpeg",
+      "hit_die": 8,
+      "primary_ability": ["Carisma"],
+      "saving_throws": ["Destrezza", "Carisma"],
+      "skill_choices": 3,
+      "skill_options": ["Acrobazia", "Addestrare Animali", "Arcano", "Atletica", "Furtività", "Indagare", "Inganno", "Intimidire", "Intrattenere", "Intuizione", "Medicina", "Natura", "Percezione", "Persuasione", "Rapidità di Mano", "Religione", "Sopravvivenza", "Storia"],
+      "description": "Un mago ispiratore la cui musica riflette l'armonia e la magia della creazione stessa."
+    },
+    "Cleric": {
+      "name_it": "Chierico",
+      "image": "https://www.dndbeyond.com/avatars/thumbnails/6/371/420/618/636272706155064423.jpeg",
+      "hit_die": 8,
+      "primary_ability": ["Saggezza"],
+      "saving_throws": ["Saggezza", "Carisma"],
+      "skill_choices": 2,
+      "skill_options": ["Storia", "Intuizione", "Medicina", "Persuasione", "Religione"],
+      "description": "Un campione sacerdotale che impugna la magia divina al servizio di un potere superiore."
+    },
+    "Druid": {
+      "name_it": "Druido",
+      "image": "https://www.dndbeyond.com/avatars/thumbnails/6/346/420/618/636272691461725405.jpeg",
+      "hit_die": 8,
+      "primary_ability": ["Saggezza"],
+      "saving_throws": ["Intelligenza", "Saggezza"],
+      "skill_choices": 2,
+      "skill_options": ["Arcano", "Addestrare Animali", "Intuizione", "Medicina", "Natura", "Percezione", "Religione", "Sopravvivenza"],
+      "description": "Un sacerdote dell'Antica Fede, incanala i poteri della natura e ne assume le forme."
+    },
     "Fighter": {
       "name_it": "Guerriero",
+      "image": "https://www.dndbeyond.com/avatars/thumbnails/6/359/420/618/636272697874197438.jpeg",
       "hit_die": 10,
       "primary_ability": ["Forza", "Destrezza"],
       "saving_throws": ["Forza", "Costituzione"],
       "skill_choices": 2,
-      "skill_options": ["Acrobazia", "Addestrare Animali", "Atletica", "Intimidire", "Intuizione", "Percezione", "Sopravvivenza", "Storia"],
-      "description": "Maestro del combattimento marziale, abile con diverse armi e armature."
+      "skill_options": ["Acrobazia", "Addestrare Animali", "Atletica", "Storia", "Intimidire", "Intuizione", "Percezione", "Sopravvivenza"],
+      "description": "Maestro impareggiabile del combattimento, abile con ogni tipo di arma e armatura."
+    },
+    "Monk": {
+      "name_it": "Monaco",
+      "image": "https://www.dndbeyond.com/avatars/thumbnails/6/489/420/618/636274646181411106.jpeg",
+      "hit_die": 8,
+      "primary_ability": ["Destrezza", "Saggezza"],
+      "saving_throws": ["Forza", "Destrezza"],
+      "skill_choices": 2,
+      "skill_options": ["Acrobazia", "Atletica", "Storia", "Intuizione", "Religione", "Furtività"],
+      "description": "Un maestro delle arti marziali, sfrutta l'energia del proprio corpo per colpire e difendersi."
+    },
+    "Paladin": {
+      "name_it": "Paladino",
+      "image": "https://www.dndbeyond.com/avatars/thumbnails/6/365/420/618/636272701937419552.jpeg",
+      "hit_die": 10,
+      "primary_ability": ["Forza", "Carisma"],
+      "saving_throws": ["Saggezza", "Carisma"],
+      "skill_choices": 2,
+      "skill_options": ["Atletica", "Intuizione", "Intimidire", "Medicina", "Persuasione", "Religione"],
+      "description": "Un guerriero divino vincolato da un giuramento sacro a lottare per la giustizia."
+    },
+    "Ranger": {
+      "name_it": "Ranger",
+      "image": "https://www.dndbeyond.com/avatars/thumbnails/6/367/420/618/636272702826438096.jpeg",
+      "hit_die": 10,
+      "primary_ability": ["Destrezza", "Saggezza"],
+      "saving_throws": ["Forza", "Destrezza"],
+      "skill_choices": 3,
+      "skill_options": ["Addestrare Animali", "Atletica", "Intuizione", "Indagare", "Natura", "Percezione", "Furtività", "Sopravvivenza"],
+      "description": "Un esploratore e cacciatore che fonde abilità marziali e magia naturale."
+    },
+    "Rogue": {
+      "name_it": "Ladro",
+      "image": "https://www.dndbeyond.com/avatars/thumbnails/6/384/420/618/636272820319276620.jpeg",
+      "hit_die": 8,
+      "primary_ability": ["Destrezza"],
+      "saving_throws": ["Destrezza", "Intelligenza"],
+      "skill_choices": 4,
+      "skill_options": ["Acrobazia", "Atletica", "Inganno", "Intuizione", "Intimidire", "Indagare", "Percezione", "Intrattenere", "Persuasione", "Rapidità di Mano", "Furtività"],
+      "description": "Un letale opportunista che fa affidamento su furtività e colpi precisi per avere la meglio."
+    },
+    "Sorcerer": {
+      "name_it": "Stregone",
+      "image": "https://www.dndbeyond.com/avatars/thumbnails/6/485/420/618/636274643818663058.jpeg",
+      "hit_die": 6,
+      "primary_ability": ["Carisma"],
+      "saving_throws": ["Costituzione", "Carisma"],
+      "skill_choices": 2,
+      "skill_options": ["Arcano", "Inganno", "Intuizione", "Intimidire", "Persuasione", "Religione"],
+      "description": "Un incantatore magico i cui poteri derivano da una linea di sangue, un dono innato o un'anomalia."
+    },
+    "Warlock": {
+      "name_it": "Warlock",
+      "image": "https://www.dndbeyond.com/avatars/thumbnails/6/375/420/618/636272708661726603.jpeg",
+      "hit_die": 8,
+      "primary_ability": ["Carisma"],
+      "saving_throws": ["Saggezza", "Carisma"],
+      "skill_choices": 2,
+      "skill_options": ["Arcano", "Inganno", "Storia", "Intimidire", "Indagare", "Natura", "Religione"],
+      "description": "Un ricercatore di segreti arcani che ottiene la sua magia stringendo un patto con entità ultraterrene."
     },
     "Wizard": {
       "name_it": "Mago",
+      "image": "https://www.dndbeyond.com/avatars/thumbnails/6/357/420/618/636272696881281556.jpeg",
       "hit_die": 6,
       "primary_ability": ["Intelligenza"],
       "saving_throws": ["Intelligenza", "Saggezza"],
       "skill_choices": 2,
-      "skill_options": ["Arcano", "Indagare", "Intuizione", "Medicina", "Religione", "Storia"],
-      "description": "Studioso della magia arcana, in grado di manipolare la trama della realtà."
+      "skill_options": ["Arcano", "Storia", "Intuizione", "Indagare", "Medicina", "Religione"],
+      "description": "Uno studioso zelante della magia, capace di manipolare la realtà tramite studio e grimori."
     }
   }
 }

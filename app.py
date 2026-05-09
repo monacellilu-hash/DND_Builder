@@ -56,7 +56,10 @@ def main():
             )
             if selected_class != "Seleziona...":
                 char['class'] = selected_class
-                st.info(f"**{rules['classes'][selected_class]['name_it']}**: {rules['classes'][selected_class]['description']}")
+                class_data = rules['classes'][selected_class]
+                st.info(f"**{class_data['name_it']}**: {class_data['description']}")
+                if "image" in class_data:
+                    st.image(class_data["image"], use_column_width=True)
             else:
                 char['class'] = None
 
@@ -86,6 +89,10 @@ def main():
                 char['background'] = selected_bg
                 bg_data = rules['backgrounds'][selected_bg]
                 st.info(f"**{bg_data['name_it']}**: {bg_data['description']}")
+                if "origin_feat" in bg_data:
+                    feat_name = bg_data["origin_feat"]
+                    feat_desc = rules.get("feats", {}).get(feat_name, {}).get("description", "")
+                    st.markdown(f"**Talento di Origine:** {feat_name} - *{feat_desc}*")
             else:
                 char['background'] = None
                 
@@ -93,12 +100,33 @@ def main():
         
         # Logica Condizionale: Caratteristiche
         st.header("2. Punteggi di Caratteristica")
-        st.markdown("Usa uno standard array (15, 14, 13, 12, 10, 8) o inserisci i tuoi punteggi di base.")
+        gen_method = st.radio("Metodo di Generazione", ["Point Buy (max 15)", "Standard Array", "Manuale / Lancio Dadi"], horizontal=True)
         
+        if gen_method == "Point Buy (max 15)":
+            st.markdown("Hai 27 punti. Costi: 8=0, 9=1, 10=2, 11=3, 12=4, 13=5, 14=7, 15=9. Min 8, Max 15 prima dei bonus razziali/background.")
+            min_v, max_v = 8, 15
+        elif gen_method == "Standard Array":
+            st.markdown("Assegna liberamente i valori **15, 14, 13, 12, 10, 8** alle caratteristiche qui sotto.")
+            min_v, max_v = 8, 15
+        else:
+            st.markdown("Inserisci liberamente i tuoi punteggi (es. se hai tirato i dadi).")
+            min_v, max_v = 3, 18
+
         cols = st.columns(6)
         for i, ab in enumerate(rules['abilities']):
             with cols[i]:
-                char['abilities'][ab] = st.number_input(f"{ab}", min_value=3, max_value=18, value=char['abilities'][ab])
+                curr_val = char['abilities'][ab]
+                if curr_val < min_v: curr_val = min_v
+                if curr_val > max_v: curr_val = max_v
+                char['abilities'][ab] = st.number_input(f"{ab}", min_value=min_v, max_value=max_v, value=curr_val)
+
+        if gen_method == "Point Buy (max 15)":
+            costs = {8:0, 9:1, 10:2, 11:3, 12:4, 13:5, 14:7, 15:9}
+            spent = sum(costs.get(char['abilities'][ab], 0) for ab in rules['abilities'])
+            if spent > 27:
+                st.error(f"Punti spesi: {spent}/27. Hai superato il limite!")
+            else:
+                st.success(f"Punti spesi: {spent}/27.")
                 
         # Bonus dal Background (Regole 2024)
         if char['background']:
@@ -166,6 +194,11 @@ def main():
                 st.write(f"**Specie:** {char['species']}")
                 st.write(f"**Background:** {char['background']}")
                 
+                if char['background']:
+                    bg_data = rules['backgrounds'][char['background']]
+                    if "origin_feat" in bg_data:
+                        st.write(f"**Talento di Origine:** {bg_data['origin_feat']}")
+
                 st.subheader("Abilità (Skills)")
                 for skill in char['skills']:
                     st.write(f"- {skill}")
