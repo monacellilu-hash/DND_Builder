@@ -546,7 +546,12 @@ def main():
             with col_r:
                 st.subheader("Tratti & Privilegi")
                 st.markdown(f"**Specie ({rules['species'][char['species']]['name_it']}):**")
-                for t in rules['species'][char['species']].get('traits', []): st.write(f"- {t}")
+                for t in rules['species'][char['species']].get('traits', []):
+                    t_desc = rules.get('trait_descriptions', {}).get(t, '')
+                    if t_desc:
+                        st.write(f"- **{t}**: {t_desc}")
+                    else:
+                        st.write(f"- {t}")
                 
                 st.markdown(f"**Talenti:**")
                 st.write(f"- {origin_feat} (Origine)")

@@ -97,7 +97,10 @@ def generate_spells_pdf(char, rules):
                     pdf.multi_cell(0, 6, clean_desc)
                     pdf.ln(2)
                     
-    return bytes(pdf.output())
+    out = pdf.output()
+    if isinstance(out, str):
+        return out.encode('latin-1')
+    return bytes(out)
 
 def generate_progression_pdf(char, rules):
     pdf = FPDF()
@@ -148,10 +151,16 @@ def generate_progression_pdf(char, rules):
                 
         pdf.ln(3)
 
-    return bytes(pdf.output())
+    out = pdf.output()
+    if isinstance(out, str):
+        return out.encode('latin-1')
+    return bytes(out)
 
 def generate_pdf(char, rules):
-    doc = fitz.open('../Dati_Input/scheda-personaggio.pdf')
+    try:
+        doc = fitz.open('DND_2024_Sheet_Compilabile.pdf')
+    except Exception:
+        doc = fitz.open('../Dati_Input/scheda-personaggio.pdf')
     
     level = char.get('level', 1)
     prof_bonus = 2 + ((level - 1) // 4)
@@ -242,7 +251,11 @@ def generate_pdf(char, rules):
             
     traits_text = ""
     for t in rules['species'].get(species, {}).get('traits', []):
-        traits_text += f"- {t}\n"
+            t_desc = rules.get('trait_descriptions', {}).get(t, '')
+            if t_desc:
+                traits_text += f"- {t}: {t_desc}\n"
+            else:
+                traits_text += f"- {t}\n"
     if origin_feat:
         traits_text += f"- {origin_feat}\n"
     for f in char.get('feats', []):
