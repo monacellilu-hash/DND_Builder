@@ -1,0 +1,31 @@
+Livello,Nome Incantesimo,Classi,Descrizione Base
+Cantrips,Fire Bolt,"Sorcerer, Wizard",Lanci un dardo di fuoco.
+Cantrips,Light,"Bard, Cleric, Sorcerer, Wizard",Fai brillare un oggetto.
+Cantrips,Mage Hand,"Bard, Sorcerer, Warlock, Wizard",Crei una mano spettrale.
+Cantrips,Guidance,"Cleric, Druid",Dai +1d4 a una prova abilità.
+Cantrips,Eldritch Blast,Warlock,Un raggio di energia crepitante.
+Cantrips,Vicious Mockery,Bard,Insulti una creatura infliggendo danni psichici.
+Level 1,Cure Wounds,"Bard, Cleric, Druid, Paladin, Ranger",Curi 2d8 + mod. PF (nuova regola 2024!).
+Level 1,Magic Missile,"Sorcerer, Wizard",3 dardi magici infliggono 1d4+1 danni ciascuno.
+Level 1,Shield,"Sorcerer, Wizard",+5 alla CA come reazione.
+Level 1,Bless,"Cleric, Paladin",3 creature ottengono +1d4 ai tiri per colpire e salvezza.
+Level 1,Healing Word,"Bard, Cleric, Druid",Curi 2d4 + mod. PF con un azione bonus (2024).
+Level 1,Armor of Agathys,Warlock,Ottieni PF temporanei e infliggi danni a chi ti colpisce.
+Level 1,Dardo Incantato,"Sorcerer, Wizard",Lanci 3 dardi di energia magica. Ogni dardo infligge 1d4+1 danni da forza.
+Level 1,Sonno,"Bard, Sorcerer, Wizard",Fai addormentare creature per un totale di 5d8 Punti Ferita.
+Level 1,Caduta Piumata,"Bard, Sorcerer, Wizard",Fino a 5 creature cadono lentamente senza subire danni.
+Level 1,Mani Brucianti,"Sorcerer, Wizard",Cono di fuoco 4.5m che infligge 3d6 danni da fuoco.
+Level 1,Charme su Persone,"Bard, Druid, Sorcerer, Warlock, Wizard",Affascini un umanoide che ti considera amichevole.
+Level 1,Luce,"Bard, Cleric, Sorcerer, Wizard",Fai emettere luce a un oggetto.
+Level 2,Frantumare,"Bard, Sorcerer, Warlock, Wizard",Un forte rumore infligge 3d8 danni da tuono in un raggio di 3 metri.
+Level 2,Passo Senza Tracce,"Druid, Ranger",+10 a Furtività per te e i tuoi alleati.
+Level 2,Arma Spirituale,Cleric,Crei un'arma magica volante che attacca come azione bonus (1d8+mod forza/saggezza danni).
+Level 2,Oscurità,"Sorcerer, Warlock, Wizard",Crei un'oscurità magica in un raggio di 4.5m.
+Level 2,Ragnatela,"Druid, Sorcerer, Wizard",Crei ragnatele appiccicose in un cubo di 6m.
+Level 2,Blocca Persone,"Bard, Cleric, Druid, Sorcerer, Warlock, Wizard",Paralizzi un umanoide.
+Level 3,Palla di Fuoco,"Sorcerer, Wizard","Esplosione di fuoco in 6 metri di raggio, infligge 8d6 danni da fuoco."
+Level 3,Controincantesimo,"Sorcerer, Warlock, Wizard",Interrompi una creatura mentre sta lanciando un incantesimo.
+Level 3,Dissipare Magie,"Bard, Cleric, Druid, Paladin, Sorcerer, Warlock, Wizard","Poni fine agli incantesimi attivi su una creatura, oggetto o effetto."
+Level 3,Volare,"Sorcerer, Warlock, Wizard",La creatura ottiene velocità di volare 18m.
+Level 3,Velocità,"Sorcerer, Wizard","La velocità del bersaglio raddoppia, +2 CA, vantaggio su TS Destrezza e un'azione aggiuntiva."
+Level 3,Rianimare Morti,"Cleric, Paladin",Riporti in vita una creatura morta da non più di 1 minuto.

@@ -1,0 +1,944 @@
+
+--- PAGE 235 ---
+PIÙ OGGETTI DELLO STESSO TIPO 
+Il personaggio non può indossare più di un esemplare 
+di certi oggetti magici. Normalmente non può indossare 
+più di un paio di calzature, un paio di guanti (normali 
+o d'arme), un paio di bracciali, un'armatura, un copricapo 
+o un mantello. Eventuali eccezioni sono a discrezione 
+del DM. 
+OGGETTI IN COPPIA 
+Gli oggetti fabbricati in coppia (come gli stivali, i bracciali, 
+i guanti d'arme e i guanti) permettono di sfruttarne 
+i benefici soltanto se entrambi gli elementi della coppia 
+vengono indossati. Per esempio, un personaggio che 
+indossa uno stivale molleggiato a un piede e uno stivale 
+elfico all'altro non trae beneficio da nessuno dei due. 
+CREARE EQUIPAGGIAMENTO 
+Usando le regole sottostanti, i personaggi possono realiz­
+zare oggetti non magici, pozioni di guarigione e pergamene 
+magiche. 
+C REARE OGGETTI NON MAGICI 
+Per creare un oggetto non magico sono necessari stru­
+menti, materie prime e tempo, di cui troverai maggiori 
+dettagli di seguito. Se il personaggio soddisfa i prerequi­
+siti, può creare l'oggetto, utilizzarlo o venderlo al normale 
+prezzo indicato. 
+STRUMENTI 
+Nella sezione "Strumenti" di questo capitolo sono indicati 
+quelli con cui realizzare determinati oggetti. Se non sono 
+presenti nell'elenco, sarà il DM a determinare gli stru­
+menti necessari alla loro creazione. 
+Per creare un oggetto, il personaggio deve avere com­
+petenza nello strumento richiesto, oltre ad averlo con sé. 
+Chiunque lo aiuti deve avere competenza a sua volta. 
+MATERIE PRIME 
+Per creare un oggetto servono materie prime del valore 
+pari alla metà del suo costo d'acquisto (arrotondato 
+per difetto). Per esempio, servono 750 mo di materie 
+prime per realizzare un'armatura a piastre, il cui costo 
+è di 1.500 mo. Sarà il DM a determinare se le materie 
+prime appropriate sono disponibili o meno. 
+TEMPO 
+Per determinare quanti giorni sono richiesti per creare 
+un oggetto (lavorando 8 ore al giorno), è necessario 
+dividere il costo d'acquisto in mo per 10 (arrotondando 
+le frazioni fino a un giorno). Per esempio, la balestra 
+pesante vale 50 mo, quindi sono necessari 5 giorni 
+per crearla. 
+Se per realizzare un oggetto sono necessari più giorni, 
+questi non devono per forza essere consecutivi. 
+Se i personaggi uniscono le forze, il tempo di realiz­
+zazione si riduce. A tal fine, dividi il tempo necessario 
+per creare un oggetto per il numero di personaggi che 
+ci stanno lavorando. In genere, è possibile ricevere l'aiuto 
+di un solo personaggio per volta, ma il DM potrebbe 
+consentire l'intervento di più assistenti. 
+REALIZZARE POZIONI 
+DI GUARIGIONE 
+Se un personaggio ha competenza nella borsa da erbo­
+rista, può creare una pozione di guarigione. A tal fine, 
+è necessario utilizzare la borsa e 25 mo di materie prime 
+nel corso di 1 giorno (8 ore di lavoro). 
+TRASC RIVERE PERGAMENE MAGICHE 
+Un incantatore può trascrivere un incantesimo su una 
+pergamena per creare una pergamena magica secondo 
+le regole seguenti. 
+TEMPO E COSTO 
+Il tempo e il denaro necessari per trascrivere una per­
+gamena variano in base al livello dell'incantesimo, come 
+mostrato nella tabella Costi delle pergamene magiche. 
+Per ogni giorno di trascrizione è necessario lavorare per 
+8 ore. Se per una pergamena sono necessari più giorni, 
+questi non devono per forza essere consecutivi. 
+PREREQUISITI DELLO SCRIBA 
+Per trascrivere una pergamena, il personaggio deve 
+avere competenza nell'abilità Arcano o nelle scorte da 
+calligrafo, oltre ad avere l'incantesimo preparato durante 
+ogni giorno di trascrizione. Per lo più, deve disporre delle 
+componenti materiali richieste. Se l'incantesimo consuma 
+componenti materiali, lo farà solo una volta completata la 
+pergamena. L'incantesimo trascritto sfrutta la CD del tiro 
+salvezza sull'incantesimo e il bonus di attacco dell'incan­
+tesimo del personaggio. 
+TRUCCHETTI 
+Se l'incantesimo sulla pergamena è un trucchetto, chiun­
+que lo lanci può farlo al livello dell'incantatore che lo ha 
+trascritto. 
+COSTI DELLE PERGA M E N E  MAG I C H E  
+Livello 
+dell'incantesimo 
+Tempo 
+Costo 
+Trucchetto 
+2 
+3 
+4 
+5 
+6 
+7 
+8 
+9 
+l giorno 
+15 mo 
+l giorno 
+25 mo 
+3 giorni 
+1 00 mo 
+5 giorni 
+1 50 mo 
+10 giorni 
+1 .000 mo 
+25 giorni 
+1 . 500 mo 
+40 giorni 
+1 0.000 mo 
+50 giorni 
+12.500 mo 
+60 giorni 
+1 5.000 mo 
+1 20 giorni 
+50.000 mo 
+CAPITOLO 6 I EQU I PAGGIAM ENTO 
+233 
+
+--- PAGE 236 ---
+
+--- PAGE 237 ---
+CAPI TOLO 7 
+INCANTESIMI 
+VESTO CAPITOLO ILLUSTRA LE REGOLE CHE 
+governano il lancio degli incantesimi, oltre alle 
+descrizioni degli incantesimi più comuni nel mondo 
+di DUNGEONS & DRAGONS. Questi incantesimi sono 
+utilizzati da molti privilegi di classe, oggetti magici e mostri. 
+OTTENERE INCANTESIMI 
+Prima che u n  personaggio possa lanciare u n  incantesimo, 
+deve averlo preparato e ben chiaro in mente, oppure deve 
+avere accesso all'incantesimo in questione custodito in un 
+oggetto magico, come una pergamena magica. I privilegi 
+del personaggio determinano il tipo di incantesimi a cui 
+ha accesso (se presenti), se ha alcuni incantesimi sempre 
+preparati e se può modificare la lista di incantesimi che 
+ha preparato. 
+PREPARARE GLI I NCANTE SIMI 
+S e  i l  personaggio possiede una lista d i  incantesimi di 
+1° livello o superiore da preparare, il suo privilegio Incan­
+tesimi specifica quando può modificare la lista e il numero 
+di incantesimi che può cambiare, come riepilogato nella 
+tabella Preparazione degli incantesimi per classe. 
+PREPARAZIONE DEGLI I N CANTESI M I  PER CLASSE 
+Numero di 
+Classe 
+Modifica quando ... 
+incantesimi 
+Bardo 
+Acquisisce un livello 
+Uno 
+Chierico 
+Completa un riposo lungo 
+Qualsiasi 
+Druido 
+Completa un riposo lungo 
+Qualsiasi 
+Mago 
+Completa un riposo lungo 
+Qualsiasi 
+Paladino 
+Completa un riposo l ungo 
+Uno 
+Ranger 
+Completa un riposo l ungo 
+Uno 
+Stregone 
+Acquisisce un livello 
+Uno 
+Warlock 
+Acquisisce un livello 
+Uno 
+Quasi tutti i mostri in grado di lanciare incantesimi non 
+modificano la loro lista di incantesimi preparati, ma il DM 
+ha la libertà di ritoccare le liste. 
+INCANTE SIMI SEMPRE PREPARATI 
+Certi privilegi possono fornire al personaggio un incan­
+tesimo sempre preparato. Se il personaggio ha anche una 
+lista di incantesimi preparati che può modificare, il suo 
+incantesimo sempre preparato non viene conteggiato nel 
+numero di incantesimi sulla lista. 
+LANCIARE INCANTESI M I  I N  ARMATURA 
+U n  incantatore deve essere competente nell'armatura 
+che indossa per poter lanciare u n  incantesimo mentre 
+la indossa. I n  caso contrario, sarà troppo ostacolato 
+dalla sua armatura per poter lanciare incantesimi. 
+LANCIARE GLI INCANTESIMI 
+L a  descrizione d i  ogni incantesimo contiene una serie 
+di voci con i dettagli necessari al lancio. Le sezioni che 
+seguono spiegano ciascuna delle voci elencate dopo il 
+nome dell'incantesimo. 
+LIVELLO DELL' INCANTE SIMO 
+Ogni incantesimo ha un livello compreso tra O e 9, indi­
+cato nella relativa descrizione. Il livello di un incantesimo 
+è un indicatore della sua potenza. I trucchetti, semplici 
+incantesimi che possono essere lanciati quasi automatica­
+mente, sono di livello O. Le regole per ogni classe da incan­
+tatore indicano quando i membri di tali classi ottengono 
+accesso a incantesimi di determinati livelli. 
+SLOT INCANTESIMO 
+Lanciare incantesimi è faticoso, quindi un incantatore può 
+lanciare solo un numero limitato di incantesimi di livello 
+superiore al 1° prima di riposare. Gli slot incantesimo sono 
+il modo in cui viene rappresentato il potenziale magico 
+di un incantatore. Ogni classe da incantatore fornisce ai 
+suoi membri un numero limitato di slot incantesimo di 
+determinati livelli di incantesimo. Ad esempio, un mago 
+di 3° livello ha quattro slot incantesimo di 1° livello e due 
+slot incantesimo di 2° livello. 
+Quando un personaggio lancia un incantesimo, consuma 
+uno slot incantesimo di livello pari o superiore a quell'in­
+cantesimo, a tutti gli effetti "riempiendo" uno slot con l'in­
+cantesimo. Uno slot incantesimo è paragonabile a un solco 
+di un dato spessore: piccolo nel caso di uno slot incante­
+simo di 1° livello, più grande nel caso di un incantesimo 
+di livello superiore. Un incantesimo di 1° livello può entrare 
+in uno slot di qualsiasi dimensione, ma un incantesimo di 
+2° livello entrerà solo in uno slot di 2° livello o superiore. 
+Quindi, quando un mago di 3° livello lancia dardo incantato 
+(incantesimo di 1° livello), spende uno dei suoi quattro slot 
+incantesimo di 1° livello e gliene rimangono tre. 
+Completare un riposo lungo ripristina tutti gli slot 
+incantesimo spesi. 
+LANCIARE UN INCANTESIMO SENZA SLOT 
+Esistono diversi modi per lanciare un incantesimo senza 
+spendere uno slot incantesimo: 
+Trucchetti. I trucchetti vengono lanciati senza usare uno 
+slot incantesimo. 
+Rituali. Alcuni incantesimi hanno il descrittore rituale 
+alla voce Tempo di lancio. Un tale incantesimo può 
+essere lanciato seguendo le normali regole di lancio 
+degli incantesimi, oppure può essere lanciato come 
+rituale. La versione rituale di un incantesimo richiede 
+10 minuti in più rispetto alla norma per essere lanciata, 
+ma non consuma uno slot incantesimo. Per lanciare un 
+incantesimo come rituale, un incantatore deve averlo 
+preparato. 
+CAPITOLO 7 I INCANTES I MI  
+F35 
+
+--- PAGE 238 ---
+Capacità speciali. Alcuni personaggi e mostri hanno 
+capacità speciali che consentono loro di lanciare incan­
+tesimi specifici senza uno slot incantesimo. Di norma, 
+questo lancio subisce restrizioni di altra natura, come 
+la possibilità di lanciare l'incantesimo per un numero 
+limitato di volte al giorno. 
+Oggetti magici. Le pergamene magiche e alcuni altri 
+oggetti magici contengono incantesimi che possono 
+essere lanciati senza uno slot incantesimo. La descri­
+zione di questi oggetti specifica quante volte essi 
+possono lanciare un incantesimo. 
+UTILIZZO DI UNO SLOT INCANTESIMO 
+DI LIVELLO SUPERIORE 
+Quando un incantatore lancia un incantesimo usando uno 
+slot di livello superiore rispetto a quello dell'incantesimo, 
+l'incantesimo assume il livello superiore per quel lancio. 
+Ad esempio, se un mago lancia dardo incantato usando 
+uno slot incantesimo di 2° livello, quel dardo incantato 
+è di 2° livello. In altre parole, l'incantesimo si espande 
+per occupare lo slot in cui viene inserito. 
+Alcuni incantesimi, quali dardo incantato e cura ferite, 
+hanno effetti più potenti quando vengono lanciati a un 
+livello superiore, come indicato nella loro descrizione. 
+SCUOLA DI MAGIA 
+Ogni incantesimo appartiene a una scuola di magia. 
+Le scuole sono elencate nella tabella Scuole di magia. 
+Le scuole di magia contribuiscono a descrivere gli incan­
+tesimi ma non prevedono regole proprie, malgrado altre 
+regole possano farvi riferimento. 
+SCUOLE DI MAGIA 
+Scuola 
+Abiurazione 
+Effetti tipici 
+Previene o inverte gli effetti dannosi 
+Ammaliamento 
+Influenza la mente altrui 
+Divinazione 
+Rivela informazioni 
+Evocazione 
+Trasporta creature od oggetti 
+Illusione 
+Inganna la mente o i sensi 
+Invocazione 
+Canalizza l'energia per creare effetti 
+spesso distruttivi 
+Necromanzia 
+Manipola la vita e la morte 
+Trasmutazione 
+Trasforma creature od oggetti 
+LISTE DI INCANTESIMI PER CLASSE 
+Se un incantesimo è nella lista di incantesimi di una classe, 
+il nome della classe compare tra parentesi dopo l'indi­
+cazione della scuola di magia dell'incantesimo. Alcuni 
+privilegi consentono a un personaggio di aggiungere un 
+incantesimo alla sua lista di incantesimi anche se il perso­
+naggio non appartiene a una classe indicata tra parentesi. 
+TEMPO DI LANCIO 
+La maggior parte degli incantesimi richiede una singola 
+azione di Magia. Tuttavia, alcuni incantesimi richiedono 
+un'azione bonus, una reazione, 1 minuto o un periodo 
+di tempo più lungo, come specificato alla voce Tempo 
+di lancio. 
+236 
+CAPITOLO 7 I INCANTESIMI 
+UN INCANTESIMO E UNO SLOT INCANTESIMO 
+PER TURNO 
+In un turno, si può spendere un solo slot per lanciare 
+un incantesimo. Questa regola implica che non si può, 
+ad esempio, lanciare un incantesimo con uno slot incante­
+simo usando l'azione di Magia e un altro usando un'azione 
+bonus nello stesso turno. 
+INNESCHI, REAZIONE E AZIONE BONUS 
+Un incantesimo con il tempo di lancio di una Reazione viene 
+lanciato in risposta a un innesco indicato alla voce Tempo 
+di lancio dell'incantesimo. Alcuni incantesimi che hanno 
+un tempo di lancio di un'Azione Bonus vengono lanciati 
+anche in risposta a un innesco definito nell'incantesimo. 
+TEMPI DI LANCIO SUPERIORI 
+Per lanciare certi incantesimi, inclusi gli incantesimi lanciati 
+come rituale, è necessario più tempo: minuti o addirittura 
+ore. Mentre il personaggio lancia un incantesimo che ha un 
+tempo di lancio di 1 minuto o più, deve effettuare un'azione 
+di Magia in ogni turno e, allo stesso tempo, deve mantenere 
+la concentrazione (vedi il Glossario delle regole). Se la sua 
+concentrazione viene interrotta, l'incantesimo fallisce, ma 
+il personaggio non consuma uno slot incantesimo. Per lan­
+ciare nuovamente l'incantesimo, deve ricominciare da capo. 
+GITTATA 
+La gittata di un incantesimo indica quanto lontano dall'in­
+cantatore può avere origine il suo effetto e la descrizione 
+dell'incantesimo specifica quale parte dell'effetto viene 
+limitata dalla gittata. 
+La gittata, di solito, prende una tra le seguenti forme: 
+Distanza. La gittata è espressa in metri. 
+Contatto. L'effetto dell'incantesimo ha origine su qualcosa 
+che l'incantatore deve toccare, come definito nell'incan­
+tesimo stesso. 
+Incantatore. L'incantesimo viene lanciato sull'incantatore 
+o si irradia dall'incantatore stesso, come indicato nella 
+descrizione dell'incantesimo. 
+Se un incantesimo ha effetti mobili, questi non sono limi­
+tati dalla gittata, a meno che la descrizione non specifichi 
+altrimenti. 
+COMPONENTI 
+Le componenti di un incantesimo sono i requisiti fisici che 
+un incantatore deve soddisfare al fine di lanciare l'incante­
+simo. La descrizione di ogni incantesimo indica se richiede 
+componenti verbali (V), somatiche (S) o materiali (M). 
+Se l'incantatore non può fornire una o più componenti 
+di un incantesimo, questo non può essere lanciato. 
+VERBALE (V) 
+Una componente verbale è la cantilena di parole esoteriche 
+che, alle orecchie dei profani, non hanno senso. La canti­
+lena deve essere pronunciata con voce normale. Le parole 
+vere e proprie non sono la fonte del potere dell'incante­
+simo: è invece quella particolare combinazione di suoni, 
+tonalità e riverbero ad attivare il flusso della magia. 
+Pertanto, una creatura imbavagliata o sita in un'area 
+di silenzio magico non può lanciare un incantesimo 
+con una componente verbale. 
+
+--- PAGE 239 ---
+Una componente somatica richiede di gesticolare ener­
+gicamente o compiere elaborate sequenze di movimenti. 
+L'incantatore deve usare almeno una delle mani per 
+eseguire questi movimenti. 
+MATERIALE (M) 
+Una componente materiale è un materiale particolare 
+utilizzato nel lancio di un incantesimo, come indicato 
+tra parentesi alla voce Componenti. Questi materiali 
+non vengono consumati dall'incantesimo, a meno che la 
+descrizione dell'incantesimo non indichi diversamente. 
+L'incantatore deve avere una mano libera per accedervi, 
+ma può essere la stessa mano usata per eseguire compo­
+nenti somatiche, se presenti. 
+Se un incantesimo non consuma materiali e non specifica 
+un costo per essi, l'incantatore può usare una borsa per 
+componenti (vedi capitolo 6) invece che fornire i materiali 
+specificati dall'incantesimo. Oppure, in sostituzione, può 
+usare un focus da incantatore se ha un privilegio che lo 
+consente. Per utilizzare una borsa per componenti è neces­
+sario avere una mano libera per prendere i componenti al 
+suo interno, mentre per utilizzare un focus da incantatore 
+è necessario tenerlo in mano, a meno che la sua descrizione 
+non specifichi altrimenti (vedi capitolo 6 per le descrizioni). 
+CREARE COMPONENTI VERBALI 
+Se l'incantatore vuole pronunciare le componenti 
+verbali di un incantesimo, puoi inventarne le parole. 
+Qualunque cosa dica, l'obiettivo è scegliere parole 
+semplici da pronunciare e che non abbiano un signi­
+ficato nel mondo reale. Si può usare questo metodo: 
+riorganizzare le lettere che compongono il nome di un 
+incantesimo, usandole una sola volta, per creare nuove 
+parole. Per esempio, escludendo le lettere che si ripe­
+tono per la seconda volta nel nome dell'incantesimo 
+palla di fuoco (I, a, o) si possono riorganizzare quelle 
+rimaste per creare parole come Faluc Podi o Padu Foil. 
+DURATA 
+La durata di un incantesimo è il periodo di tempo in 
+cui l'incantesimo persiste dopo essere stato lanciato. 
+La durata, di norma, assume una tra le seguenti forme: 
+Concentrazione. Una durata che richiede concentrazione 
+segue le regole di concentrazione (vedi il Glossario delle 
+regole). 
+Istantanea. Una durata istantanea indica che l'incante­
+simo appare solo per un momento e poi scompare. 
+Intervallo di tempo. Una durata che fornisce un inter­
+vallo di tempo specifica la durata dell'incantesimo in 
+round, minuti, ore o altre unità di tempo simili. Ad esem­
+pio, una voce Durata potrebbe indicare "1 minuto", il che 
+significa che l'incantesimo termina una volta trascorso 
+1 minuto. Se un incantesimo con un intervallo di tempo 
+è in corso, il personaggio può interromperlo (nessuna 
+azione richiesta) se non è incapacitato. 
+EFFETTI 
+Gli effetti di un incantesimo sono indicati dopo la voce 
+Durata. Le informazioni indicano cosa fa esattamente 
+l'incantesimo, che ignora le normali leggi della fisica. 
+Qualsiasi risultato al di là di questi effetti è a discrezione 
+del DM. Qualunque siano gli effetti di un incantesimo, 
+solitamente sono legati ai bersagli, ai tiri salvezza, ai tiri 
+per colpire o a tutti e tre. Questi tre elementi sono descritti 
+di seguito. 
+BERSAGLI 
+Un tipico incantesimo prevede che l'incantatore scelga 
+uno o più bersagli che saranno influenzati dalla sua magia. 
+La descrizione di un incantesimo indica se esso ha come 
+bersaglio creature, oggetti o qualcos'altro. 
+Percorso libero fino al bersaglio. Per bersagliare qualcosa 
+con un incantesimo, l'incantatore deve avere un percorso 
+libero fino al bersaglio, che quindi non deve trovarsi 
+dietro copertura totale. 
+CAPITOLO 7 I INCANTESIMI 
+237 
+Somatica (S)
+
+--- PAGE 240 ---
+Bersagliare se stessi. Se un incantesimo bersaglia una 
+creatura a scelta dell'incantatore, questi può scegliere se 
+stesso, a meno che la creatura non debba essere ostile o non 
+sia specificato che deve trattarsi di una creatura diversa. 
+Aree di effetto. Alcuni incantesimi, come onda tonante, 
+coprono un'area chiamata area di effetto, definita nel 
+Glossario delle regole. L'area determina quali sono i bersa­
+gli colpiti dall'incantesimo. Nella sua descrizione è indicato 
+se l'incantesimo ha un'area di effetto che, in genere, può 
+avere una di queste forme: cono, cubo, cilindro, emana­
+zione, linea o sfera. 
+Accorgersi di essere un bersaglio. A meno che un incan­
+tesimo non abbia un effetto percettibile, una creatura 
+potrebbe persino non accorgersi di essere stata bersagliata 
+da esso. Effetti come i fulmini sono evidenti, ma un effetto 
+più subdolo, come un tentativo di leggere i pensieri di una 
+creatura, passa inosservato a meno che la descrizione 
+dell'incantesimo non specifichi altrimenti. 
+Bersagli non validi. Se il personaggio lancia un incan­
+tesimo su qualcuno o qualcosa che non può subirne gli 
+effetti, non accadrà nulla a quel bersaglio; tuttavia, se il 
+personaggio ha usato uno slot incantesimo per lanciare 
+l'incantesimo, lo slot viene consumato. 
+Di norma, un incantesimo non ha effetto su un bersaglio 
+che supera un tiro salvezza. Per i bersagli non validi, 
+sembrerà che il bersaglio abbia superato il tiro salvezza 
+anche se, in realtà, non l'ha effettuato (non dando quindi 
+alcun indizio sul fatto che la creatura sia un bersaglio non 
+valido). Altrimenti, il personaggio capirebbe che l'incante­
+simo non ha avuto effetto sul bersaglio. 
+TIRI SALVEZZA 
+Molti incantesimi specificano che un bersaglio effettua un 
+tiro salvezza per evitare tutti gli effetti dell'incantesimo 
+o parte di essi. L'incantesimo specifica l'abilità che il 
+bersaglio usa per il salvataggio e cosa succede in caso di 
+successo o fallimento. Ecco come calcolare la CD degli 
+incantesimi: 
+238 
+CAPITOLO 7 I I NCANTESIMI 
+CD del tiro salvezza sull'incantesimo = 8 + il modificatore 
+di caratteristica da incantatore dell'incantatore + i l  bonus 
+di competenza 
+TIRI PER COLPIRE 
+Alcuni incantesimi richiedono che l'incantatore effettui 
+un tiro per colpire per determinare se l'effetto dell'incan­
+tesimo colpirà il bersaglio desiderato. Ecco come calcolare 
+il modificatore di attacco degli incantesimi: 
+Modificatore di attacco dell'incantesimo = il modificatore 
+di caratteristica da incantatore dell'incantatore + il bonus 
+di competenza 
+COMBINARE GLI EFFETTI DEGLI 
+INCANTESIMI 
+Gli effetti di diversi incantesimi si sommano fintantoché 
+le rispettive durate si sovrappongono. Di contro, però, 
+gli effetti dello stesso incantesimo lanciato più volte non 
+si combinano: viene infatti applicato solo il loro effetto 
+più potente, come ad esempio il bonus più alto, mentre 
+le durate degli incantesimi si sovrappongono. Si applica 
+l'effetto più recente se gli incantesimi sono ugualmente 
+potenti e le loro durate si sovrappongono. Ad esempio, 
+se due chierici lanciano benedizione sullo stesso bersaglio, 
+quel bersaglio ottiene il beneficio dell'incantesimo solo 
+una volta, senza ricevere due dadi bonus. Ma se le durate 
+degli incantesimi si sovrappongono, l'effetto continua 
+fino a che non termina la durata del secondo incantesimo 
+benedizione. 
+.... 
+I D E NTIFICARE U N  I N CANTES I M O  I N  CORSO 
+L'i ncantatore può cercare di identificare un incante­
+simo non istantaneo la cui d urata è in corso in base ai 
+suoi effetti osservabili. Per identificarlo, deve effettuare 
+l 'azione di Studio e superare una prova di I ntel ligenza 
+(Arcano) con CD 1 5. 
+
+--- PAGE 241 ---
+DESCRIZIONI DEGLI 
+INCANTESIMI 
+Gli incantesimi sono presentati in ordine alfabetico. 
+ACULEO MENTALE 
+Divinazione di 2° livello (mago, stregone, warlock) 
+Tempo di lancio: azione 
+Gittata: 36 metri 
+Componenti: S 
+Durata: concentrazione, fino a 1 ora 
+L'incantatore guida un flusso di energia psionica nella 
+mente di una creatura entro gittata che è in grado di 
+vedere. Il bersaglio effettua un tiro salvezza su Saggezza, 
+subendo 3d8 danni psichici in caso di fallimento, o la 
+metà dei danni in caso di successo. Se fallisce il tiro, 
+l'incantatore sa sempre dove si trova il bersaglio fino al 
+termine dell'incantesimo, ma solo se entrambi si trovano 
+sullo stesso piano di esistenza. Finché l'incantatore è in 
+possesso di queste conoscenze, il bersaglio non può 
+nascondersi da lui e, se è invisibile, non ottiene alcun 
+beneficio da questa condizione contro di lui. 
+Utilizzo di uno slot incantesimo di livello superiore. 
+I danni aumentano di ld8 per ogni slot di livello superiore 
+al 2°. 
+AIUTO 
+Abiurazione di 2° livello (bardo, chierico, druido, paladino, 
+ranger) 
+Tempo di lancio: azione 
+Gittata: 9 metri 
+Componenti: V, S, M (una striscia di tessuto bianco) 
+Durata: 8 ore 
+L'incantatore sceglie fino a tre creature entro gittata. 
+I punti ferita massimi e i punti ferita attuali di ogni bersa­
+glio aumentano di 5 per la durata dell'incantesimo. 
+Utilizzo di uno slot incantesimo di livello superiore. 
+I punti ferita di ciascun bersaglio aumentano di 5 per 
+ogni slot incantesimo di livello superiore al 2°. 
+ALLARME 
+Abiurazione di 1° livello (mago, ranger) 
+Tempo di lancio: 1 minuto o rituale 
+Gittata: 9 metri 
+Componenti: V, S, M (una campanella e un filo d'argento) 
+Durata: 8 ore 
+L'incantatore predispone un allarme che segnala un'in­
+trusione. Sceglie una porta, una finestra o un'area entro 
+gittata che non sia più ampia di un cubo con spigolo 
+di 6 metri. Fino al termine dell'incantesimo, un allarme 
+avverte l'incantatore tutte le volte che una creatura 
+tocca o entra nell'area protetta. Al momento del lancio 
+dell'incantesimo, l'incantatore designa quali creature non 
+faranno scattare l'allarme. Inoltre, sceglie se l'allarme 
+è acustico o mentale. 
+Allarme acustico. L'allarme produce il suono di una 
+campanella per 10 secondi entro 18 metri dall'area 
+protetta. 
+Allarme mentale. Un suono nella mente avverte l'incan­
+tatore se questi si trova entro 1,5 chilometri dall'area 
+protetta. Il suono sveglia l'incantatore se sta dormendo. 
+ALLEATO PLANARE 
+Evocazione di 6° livello (chierico) 
+Tempo di lancio: 10 minuti 
+Gittata: 18 metri 
+Componenti: V, S 
+Durata: istantanea 
+L'incantatore chiede aiuto a un'entità ultraterrena che 
+deve essergli nota: un dio, un principe dei demoni o qual­
+che altro essere dotato di poteri cosmici. Quell'entità 
+invia in aiuto un celestiale, un elementale o un immondo 
+a lei fedele, che appare in uno spazio libero entro gittata. 
+Se l'incantatore conosce il nome di una creatura specifica, 
+può pronunciarlo quando lancia l'incantesimo per richie­
+dere il suo intervento, ma potrebbe apparire comunque 
+una creatura diversa (a scelta del DM). 
+Quando la creatura appare, non è obbligata a compor­
+tarsi in un modo particolare. L'incantatore può chiederle 
+di svolgere per lui un servizio in cambio di pagamento, 
+ma essa non è costretta ad accettare. Il compito richiesto 
+potrebbe essere qualcosa di semplice ("portaci in volo 
+oltre il baratro" o "aiutaci a combattere una battaglia") 
+o di complesso ("spia i nostri nemici" o "proteggici durante 
+la nostra incursione nel dungeon"). L'incantatore deve 
+essere in grado di comunicare con la creatura per contrat­
+tare per i suoi servigi. 
+Il pagamento può avere varie forme: Un celestiale 
+potrebbe richiedere un'ingente donazione in oro o oggetti 
+magici a un tempio alleato, un immondo esigere una 
+creatura vivente in sacrificio o un tesoro in dono. Alcune 
+creature potrebbero scambiare i propri servigi con una 
+missione che l'incantatore deve svolgere. 
+Un compito che può essere misurato in minuti richiede 
+un pagamento del valore di 100 mo al minuto, un compito 
+misurato in ore richiede 1.000 mo all'ora e un compito 
+misurato in giorni (per un massimo di 10 giorni) richiede 
+10.000 mo al giorno. Il DM può modificare questi paga­
+menti in base alle circostanze del lancio dell'incantesimo. 
+Se il compito è in sintonia con l'etica della creatura, 
+il pagamento potrebbe essere dimezzato o addirittura 
+revocato. I compiti non pericolosi richiedono tipicamente 
+solo la metà del pagamento suggerito, mentre quelli 
+particolarmente rischiosi potrebbero richiedere una 
+ricompensa superiore. È raro che una creatura accetti 
+un compito potenzialmente suicida. 
+Dopo aver portato a termine il compito o quando 
+la durata pattuita termina, la creatura fa ritorno al suo 
+piano d'origine dopo aver fatto rapporto all'incantatore, 
+se possibile. Se l'incantatore e la creatura non riescono 
+ad accordarsi sul prezzo del suo servizio, quest'ultima 
+ritorna immediatamente sul suo piano d'origine. 
+CAPITOLO 7 I INCANTESIMI 
+239 
+
+--- PAGE 242 ---
+ALLUCINAZIONE DI FORZA 
+Illusione di 2° livello (bardo, mago, stregone) 
+Tempo di lancio: azione 
+Gittata: 18 metri 
+Componenti: V, S, M (un ciuffo di lana) 
+Durata: concentrazione, fino a 1 minuto 
+L'incantatore tenta di creare un'illusione nella mente 
+di una creatura entro gittata che è in grado di vedere. 
+Il bersaglio effettua un tiro salvezza su Intelligenza. 
+Se lo fallisce, l'incantatore crea l'illusione di un oggetto, 
+una creatura o un fenomeno di altra natura, che non sia 
+più grande di un cubo con spigolo di 3 metri e che sia 
+percepibile soltanto dal bersaglio per la durata dell'incan­
+tesimo. L'allucinazione include suoni, temperature e altri 
+stimoli analoghi. 
+Il bersaglio può effettuare un'azione di Studio per 
+esaminare l'allucinazione con una prova di Intelligenza 
+(Indagare) contro la CD del tiro salvezza sull'incantesimo. 
+Se supera la prova, il bersaglio capisce che l'allucinazione 
+è un'illusione e l'incantesimo termina. 
+Finché il bersaglio è influenzato dall'incantesimo, con­
+sidera l'allucinazione come se fosse reale e razionalizza 
+qualsiasi esito illogico prodotto dalle sue interazioni con 
+essa. Ad esempio, se il bersaglio cammina attraverso 
+un ponte illusorio e sopravvive alla caduta, crederà 
+comunque che il ponte esista e che sia stato qualcos'altro 
+a causare la caduta. 
+Un bersaglio influenzato può perfino subire danni 
+dall'illusione se l'allucinazione rappresenta una creatura 
+pericolosa o un pericolo. In ogni turno dell'incantatore, 
+l'allucinazione può infliggere 2d8 danni psichici al bersa­
+glio se questo si trova nell'area dell'allucinazione o entro 
+1,5 metri da essa. Il bersaglio percepisce i danni come se 
+fossero del tipo appropriato per l'illusione. 
+ALLUCINAZIONE MORTALE 
+Illusione di 4° livello (bardo, mago) 
+Tempo di lancio: azione 
+Gittata: 36 metri 
+Componenti: V, S 
+Durata: concentrazione, fino a 1 minuto 
+L'incantatore attinge agli incubi di una creatura entro 
+gittata che è in grado di vedere e crea un'illusione delle 
+sue paure più profonde, visibile solo a lei. Il bersaglio effet­
+tua un tiro salvezza su Saggezza. In caso di fallimento, 
+subisce 4dl0 danni psichici e subisce svantaggio alle 
+prove di caratteristica e ai tiri per colpire per la durata 
+dell'incantesimo. In caso di successo, subisce soltanto 
+la metà di quei danni e l'incantesimo termina. 
+Per la durata dell'incantesimo, il bersaglio effettua 
+un tiro salvezza su Saggezza alla fine di ogni suo turno. 
+In caso di fallimento, subisce nuovamente i danni psichici. 
+In caso di successo, l'incantesimo termina. 
+Utilizzo di uno slot incantesimo di livello superiore. 
+I danni aumentano di ldlO per ogni slot di livello supe­
+riore al 4°. 
+240 
+CAPITOLO 7 I INCANTESIMI 
+ALTERARE SE STESSO 
+Trasmutazione di 2° livello (mago, stregone) 
+Tempo di lancio: azione 
+Gittata: incantatore 
+Componenti: V, S 
+Durata: concentrazione, fino a 1 ora 
+L'incantatore altera la propria forma fisica scegliendo 
+tra le opzioni seguenti. Gli effetti permangono per la 
+sua durata, durante la quale l'incantatore può effettuare 
+un'azione di Magia per sostituire l'opzione scelta con 
+una diversa. 
+Adattamento acquatico. L'incantatore sviluppa le bran­
+chie e una membrana tra le dita. Inoltre, può respirare 
+sott'acqua e ottenere una velocità di nuoto pari alla sua 
+velocità. 
+Armi naturali. L'incantatore sviluppa artigli (taglienti), 
+zanne (perforanti), corna (perforanti) o zoccoli (contun­
+denti). Quando usa il suo colpo senz'armi per infliggere 
+danni con l'arma naturale creata, infligge ld6 danni 
+(del tipo indicato tra parentesi) invece di infliggere i danni 
+normali del colpo senz'armi, usando il modificatore di 
+caratteristica da incantatore per i tiri per colpire e per 
+i tiri per i danni anziché quello di Forza. 
+Cambiare aspetto. L'incantatore altera il suo aspetto: 
+decide come apparire e definisce altezza, peso, lineamenti 
+facciali, tono della voce, lunghezza dei capelli, carnagione 
+e altri tratti distintivi. Può scegliere di assomigliare 
+a un membro di un'altra specie, ma le sue statistiche non 
+subiscono modifiche. Non può apparire come una creatura 
+di taglia diversa e la sua forma base rimane la stessa; per 
+esempio, se è bipede, non può usare l'incantesimo per 
+diventare quadrupede. Per la durata dell'incantesimo, 
+può effettuare un'azione di Magia per cambiare di nuovo 
+il suo aspetto. 
+AMICIZIA 
+Trucchetto di Ammaliamento (bardo, mago, stregone, warlock) 
+Tempo di lancio: azione 
+Gittata: 3 metri 
+Componenti: S, M (un po' di trucco) 
+Durata: concentrazione, fino a 1 minuto 
+L'incantatore emana magicamente un sentimento di 
+amicizia verso una creatura che è in grado di vedere 
+entro gittata. Il bersaglio deve superare un tiro salvezza 
+su Saggezza, altrimenti rimane affascinato per la durata 
+dell'incantesimo. Il bersaglio supera automaticamente 
+il tiro se non è un umanoide, se l'incantatore sta combat­
+tendo contro di esso o se l'incantatore ha lanciato questo 
+incantesimo sul bersaglio nelle ultime 24 ore. 
+L'incantesimo termina in anticipo se il bersaglio subisce 
+danni o se l'incantatore effettua un tiro per colpire, 
+infligge danni o costringe qualcuno a effettuare un tiro 
+salvezza. Al termine dell'incantesimo, il bersaglio capirà 
+di essere stato affascinato dall'incantatore. 
+
+--- PAGE 243 ---
+AMICIZIA CON GLI ANIMALI 
+Ammaliamento di 1 ° livello (bardo, druido, ranger) 
+Tempo di lancio: azione 
+Gittata: 9 metri 
+Componenti: V, S, M (un boccone di cibo) 
+Durata: 24 ore 
+L'incantatore sceglie come bersaglio una bestia entro 
+gittata che è in grado di vedere. Il bersaglio deve superare 
+un tiro salvezza su Saggezza, altrimenti rimane affasci­
+nato per la durata dell'incantesimo. Se l'incantatore o uno 
+dei suoi alleati infligge danni al bersaglio, l'incantesimo 
+termina. 
+Utilizzo di uno slot incantesimo di livello superiore. 
+L'incantatore può scegliere come bersaglio una bestia 
+aggiuntiva per ogni slot di livello superiore al 1°. 
+ANATEMA 
+Ammaliamento di 1° livello (bardo, chierico, warlock) 
+Tempo di lancio: azione 
+Gittata: 9 metri 
+Componenti: V, S, M (una goccia di sangue) 
+Durata: concentrazione, fino a 1 minuto 
+L'incantatore sceglie fino a tre creature situate entro 
+gittata e che è in grado di vedere, ciascuna delle quali deve 
+effettuare un tiro salvezza su Carisma. Se un bersaglio 
+fallisce il tiro, ogni volta che effettua un tiro per colpire 
+o un tiro salvezza prima del termine dell'incantesimo 
+deve sottrarre ld4 da essi. 
+Utilizzo di uno slot incantesimo di livello superiore. 
+L'incantatore può bersagliare una creatura aggiuntiva 
+per ogni slot di livello superiore al 1°. 
+ANIMALE MESSAGGERO 
+Ammaliamento di 2° livello (bardo, druido, ranger) 
+Tempo di lancio: azione o rituale 
+Gittata: 9 metri 
+Componenti: V, S, M (un boccone di cibo) 
+Durata: 24 ore 
+Una bestia Minuscola a scelta entro gittata che l'incanta­
+tore è in grado di vedere deve superare un tiro salvezza su 
+Carisma, altrimenti deve cercare di consegnare un messag­
+gio da parte sua (se il grado di sfida del bersaglio non è O, 
+la prova viene superata automaticamente). L'incantatore 
+specifica il luogo di consegna, che ha già visitato, e un 
+destinatario che corrisponda a una descrizione generica, 
+come "una persona che indossa l'uniforme della guardia 
+cittadina" o "un nano dai capelli rossi che indossa un 
+cappello a punta". Inoltre, l'incantatore comunica un 
+messaggio composto da un massimo di venticinque parole. 
+La bestia bersaglio viaggia per la durata dell'incantesimo 
+verso il luogo specificato, percorrendo circa 37,5 chilome­
+tri in 24 ore o 75 chilometri se è una bestia volante. 
+Quando la bestia arriva a destinazione, trasmette il 
+messaggio alla creatura descritta, imitando il modo di 
+comunicare dell'incantatore. Se la bestia non raggiunge 
+la sua destinazione prima della fine dell'incantesimo, 
+il messaggio viene perso e la bestia torna nel luogo dove 
+l'incantatore ha lanciato l'incantesimo. 
+Utilizzo di uno slot incantesimo di livello superiore. 
+La durata dell'incantesimo aumenta di 48 ore per ogni 
+slot di livello superiore al 2°. 
+ANIMARE MORTI 
+Necromanzia di 3° livello (chierico, mago) 
+Tempo di lancio: 1 minuto 
+Gittata: 3 metri 
+Componenti: V, S, M (una goccia di sangue, un pezzo 
+di carne e un pizzico di polvere d 'osso) 
+Durata: istantanea 
+L'incantatore sceglie una pila di ossa o un cadavere uma­
+noide di taglia Media o Piccola entro gittata, animandolo 
+come creatura non morta. Il bersaglio si trasforma in uno 
+scheletro se l'incantatore sceglie la pila di ossa, o in uno 
+zombi se l'incantatore sceglie un cadavere (vedi l'appen­
+dice B per le schede delle statistiche). 
+A ogni suo turno, l'incantatore può effettuare un'azione 
+bonus per comandare mentalmente qualsiasi creatura 
+creata con questo incantesimo, a patto che si trovi entro 
+18 metri da lui (se controlla varie creature, l'incantatore 
+può comandarne più di una allo stesso momento, 
+impartendo lo stesso comando a ciascuna di loro). 
+L'incantatore decide quale azione effettuerà la creatura 
+e dove si muoverà nel suo turno successivo, oppure può 
+impartirle un comando generale, come restare a guardia 
+di una stanza o un di corridoio. Se invece non impartisce 
+alcun comando, la creatura effettua l'azione Schivata e si 
+sposta solo per evitare di subire danni. Una volta ricevuto 
+un ordine, la creatura continua a seguirlo finché non ha 
+portato a termine il compito. 
+La creatura rimane sotto il controllo dell'incantatore 
+per 24 ore, passate le quali smette di obbedire a qualsiasi 
+comando ulteriore. Per mantenere il controllo sulla 
+creatura per altre 24 ore, l'incantatore deve lanciare di 
+nuovo questo incantesimo su di essa prima che l'attuale 
+periodo di 24 ore termini. Questo uso dell'incantesimo 
+gli permette di ristabilire il controllo su un massimo di 
+quattro creature da lui animate tramite questo incante­
+simo, anziché animarne una nuova. 
+Utilizzo di uno slot incantesimo di livello superiore. 
+L'incantatore anima due creature non morte aggiuntive 
+o ristabilisce il controllo su di esse per ogni slot incante­
+simo di livello superiore al 3°. Ognuna delle creature deve 
+provenire da un diverso cadavere o mucchio d'ossa. 
+CAPITOLO 7 I I NCANTES I M I  
+241 
+
+--- PAGE 244 ---
+U N  B R A C I E R E  S O TT O  
+L'E F F E TTO O E L L I N C /\ N T E S I M O
+ANIMARE OGGETTI 
+0CC ETTO A N I MATO 
+Costrutto Enorme o inferiore, senza allineamento 
+CA 1 5  
+PF 1 0  (taglia Media o i nferiore), 20 (taglia G rande), 
+40 (taglia Enorme) 
+Velocità 9 m 
+MOD SALV 
+FoR 1 6  +3 
++3 
+I NT 
+3 
+-4 
+-4 
+MOD SALV 
+DES 1 0  +O 
++O 
+SAG 
+3 
+-4 -4 
+MOD SALV 
+Cos 1 0  +O 
++O 
+CAR 
+-5 
+-5 
+Immunità affascinato, avvelenato, indebolimento, 
+paralizzato, psichico, spaventato, veleno 
+Sensi Percezione passiva 6, vista cieca 9 m 
+Lingue com prende le lingue parlate dal personaggio 
+GS nessuno (PE O; BC pari al bonus di com petenza del 
+personaggio) 
+AZI O N I  
+Schianto. Tiro per colpire in mischia: i l  bonus equivale 
+al modificatore di attacco dell'incantesimo del ranger, 
+portata di 1 , 5  metri Colpo: Danni da forza pari a l d4 + 3 
+(taglia M edia o inferiore), 2d6 + 3 + il modificatore di 
+caratteristica da incantatore dell ' incantatore (taglia G rande) 
+o 2dl 2  + 3 + il modificatore di caratteristica da incantatore
+dell'incantatore (taglia Enorme) .  
+242 
+CAPITOLO 7 I I NCANTES I M I  
+P'""" 
+ANIMARE OGGETTI 
+Trasmutazione di 5° livello (bardo, mago, stregone) 
+Tempo di lancio: azione 
+Gittata: 36 metri 
+Componenti: V, S 
+Durata: concentrazione, fino a l minuto 
+Gli oggetti si animano su ordine dell'incantatore. 
+L'incantatore sceglie un numero di oggetti non magici 
+entro gittata che non siano indossati o trasportati, 
+fissati su una superficie o di dimensioni Mastodontiche. 
+Il numero massimo di oggetti è uguale al suo modificatore 
+di caratteristica da incantatore; per questo numero, 
+un bersaglio di taglia Media o inferiore conta come 
+un oggetto, un bersaglio di taglia Grande conta come 
+due e un bersaglio Enorme conta come tre. 
+Ogni bersaglio si anima e diventa un costrutto prov­
+visto di gambe che utilizza la scheda delle statistiche 
+dell'oggetto animato; questa creatura è sotto il controllo 
+dell'incantatore fino al termine dell'incantesimo o finché 
+non viene ridotta a O punti ferita. Ogni creatura creata 
+con questo incantesimo diventa un alleato per l'incanta­
+tore e i suoi alleati. In combattimento, la creatura ha lo 
+stesso punteggio di iniziativa dell'incantatore, ma inizia 
+il turno immediatamente dopo il suo. 
+Fino al termine dell'incantesimo, come azione bonus, 
+l'incantatore può comandare mentalmente qualsiasi cre­
+atura creata con questo incantesimo, a patto che si trovi 
+entro 150 metri da sé (se controlla varie creature, l'incan­
+tatore può comandarne più di una allo stesso momento, 
+impartendo lo stesso comando a ciascuna di loro). 
+Se invece non impartisce alcun comando, la creatura 
+effettua l'azione Schivata e si sposta solo per evitare di 
+subire danni. Quando la creatura scende a O punti ferita, 
+riassume la sua forma di oggetto, a cui vengono trasferiti 
+eventuali danni rimanenti. 
+Utilizzo di uno slot incantesimo di livello superiore. 
+I danni da Schianto della creatura aumentano di ld4 
+(taglia Media o inferiore), ld6 (taglia Grande) o ld12 
+(taglia Enorme) per ogni slot di livello superiore al 5°. 
+ANTI-INDIVIDUAZIONE 
+Abiurazione di 3° livello (bardo, mago, ranger) 
+Tempo di lancio: azione 
+Gittata: contatto 
+Componenti: V, S, M (un pizzico di polvere di diamante 
+del valore di 25 mo o più, che l'incantesimo consuma) 
+Durata: 8 ore 
+Per la durata dell'incantesimo, l'incantatore nasconde 
+agli incantesimi di divinazione un bersaglio da lui toccato. 
+Il bersaglio può essere una creatura consenziente, oppure 
+un luogo o un oggetto non più grande di 3 metri in 
+qualsiasi dimensione. Il bersaglio non può essere preso 
+di mira da alcun incantesimo di divinazione né percepito 
+da sensori di scrutamento magico. 
