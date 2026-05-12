@@ -4410,5 +4410,39 @@
     "Magia Malefica (Hex Magic)": "Conosci Camuffare Se Stesso e Maleficio.",
     "Natura Immortale (Deathless Nature)": "Vantaggio ai TS contro Veleno e Malattie. Non devi mangiare o respirare.",
     "Conoscenza da una Vita Passata (Knowledge from a Past Life)": "Aggiungi 1d6 a un tiro abilità. (Usi pari a bonus competenza)."
+  },
+  "trait_options": {
+    "Versatile": {
+      "origin_feat": 1,
+      "skill_choices": 1
+    },
+    "Versatilità nelle Abilità (Skill Versatility)": {
+      "skill_choices": 2
+    },
+    "Istinti Cangianti (Changeling Instincts)": {
+      "skill_options": [
+        "Inganno",
+        "Intimidire",
+        "Intuizione",
+        "Persuasione"
+      ],
+      "skill_choices": 2
+    },
+    "Talento del Gatto (Cat's Talent)": {
+      "skills_granted": [
+        "Percezione",
+        "Furtività"
+      ]
+    },
+    "Keen Senses": {
+      "skills_granted": [
+        "Percezione"
+      ]
+    },
+    "Portatore di Luce (Light Bearer)": {
+      "cantrips_granted": [
+        "Luce"
+      ]
+    }
   }
 }

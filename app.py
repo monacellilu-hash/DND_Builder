@@ -182,6 +182,26 @@ def get_current_char(rules):
         if origin_feat: all_feats.append(origin_feat)
     all_feats.extend(char['feats'])
     
+    sp_name = char['species']
+    if sp_name != "Seleziona...":
+        sp_traits = rules['species'][sp_name].get('traits', [])
+        for t in sp_traits:
+            t_data = rules.get('trait_options', {}).get(t, {})
+            # automatically granted skills/cantrips
+            char['skills'].extend(t_data.get('skills_granted', []))
+            char['cantrips'].extend(t_data.get('cantrips_granted', []))
+            
+            # user choices
+            if t_data.get('origin_feat', 0) > 0:
+                t_feat = st.session_state.get(f"trait_feat_{t}")
+                if t_feat and t_feat != "Seleziona...":
+                    all_feats.append(t_feat)
+                    char['feats'].append(t_feat)
+            
+            if t_data.get('skill_choices', 0) > 0:
+                t_skills = st.session_state.get(f"trait_skills_{t}", [])
+                char['skills'].extend(t_skills)
+
     for f in all_feats:
         asi_sel = st.session_state.get(f"feat_asi_{f}")
         if asi_sel and asi_sel != "Seleziona...":
@@ -211,7 +231,7 @@ def main():
     with tab_base:
         if st.button("🔄 Resetta Personaggio Corrente"):
             for key in list(st.session_state.keys()):
-                if key.startswith("char_") or key.startswith("feat_"):
+                if key.startswith("char_") or key.startswith("feat_") or key.startswith("trait_"):
                     del st.session_state[key]
             init_session_state()
             st.rerun()
@@ -351,12 +371,45 @@ def main():
                 st.session_state.char_feats = valid_feats
             st.multiselect(f"Scegli {extra_feats_count} talenti extra (Avanzamenti di Classe)", options=avail_feats, max_selections=extra_feats_count, key="char_feats")
             
+        sp_name = st.session_state.char_species
+        species_feats = []
+        if sp_name != "Seleziona...":
+            sp_traits = rules.get('species', {}).get(sp_name, {}).get('traits', [])
+            for t in sp_traits:
+                t_data = rules.get('trait_options', {}).get(t, {})
+                
+                if t_data.get('origin_feat', 0) > 0:
+                    avail_origin_feats = [f for f, d in rules.get('feats', {}).items() if 'origin' in d.get('category', '').lower() or 'origine' in d.get('category', '').lower()]
+                    if not avail_origin_feats:
+                        avail_origin_feats = avail_feats
+                        
+                    opts = ["Seleziona..."] + avail_origin_feats
+                    key_trait_feat = f"trait_feat_{t}"
+                    if st.session_state.get(key_trait_feat) not in opts:
+                        st.session_state[key_trait_feat] = opts[0]
+                        
+                    sel_feat = st.selectbox(f"Scegli un Talento di Origine extra ({t})", options=opts, key=key_trait_feat)
+                    if sel_feat and sel_feat != "Seleziona...":
+                        species_feats.append(sel_feat)
+                        
+                skill_choices_count = t_data.get('skill_choices', 0)
+                if skill_choices_count > 0:
+                    avail_skills = list(rules.get('skills', {}).keys())
+                    key_trait_skills = f"trait_skills_{t}"
+                    prev_skills = st.session_state.get(key_trait_skills, [])
+                    valid_skills = [x for x in prev_skills if x in avail_skills]
+                    if len(valid_skills) != len(prev_skills):
+                        st.session_state[key_trait_skills] = valid_skills
+                        
+                    st.multiselect(f"Scegli {skill_choices_count} Abilità extra ({t})", options=avail_skills, max_selections=skill_choices_count, key=key_trait_skills)
+            
         bg_name = st.session_state.char_background
         origin_feat = rules['backgrounds'].get(bg_name, {}).get('origin_feat', '') if bg_name != "Seleziona..." else ""
         
         all_char_feats = []
         if origin_feat: all_char_feats.append(origin_feat)
         all_char_feats.extend(st.session_state.char_feats)
+        all_char_feats.extend(species_feats)
 
         if all_char_feats:
             for f in all_char_feats:
@@ -645,7 +698,7 @@ def main():
                 for ab in rules['abilities']:
                     char_data['_raw_state'][f'char_ab_{ab}'] = st.session_state[f'char_ab_{ab}']
                 for k, v in st.session_state.items():
-                    if k.startswith("feat_"):
+                    if k.startswith("feat_") or k.startswith("trait_"):
                         char_data['_raw_state'][k] = copy.deepcopy(v)
                     
                 existing = [i for i, c in enumerate(st.session_state.roster) if c['name'] == char_data['name']]
